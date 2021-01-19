@@ -36,6 +36,6 @@ class Logger():
 	def critical(self, message):
 		self.log.critical(message)
 
-	# def create_log_folder(self, directory):
-	# 	if not os.path.exists(directory):
-	# 		os.mkdir(directory)
+	def create_log_folder(self, directory):
+		if not os.path.exists(directory):
+			os.mkdir(directory)
